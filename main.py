@@ -19,9 +19,9 @@ if not st.session_state.messages:
     st.session_state.messages.append({
         "role": "assistant",
         "content": (
-            "👋 Bonjour et bienvenue chez Kaducea !\n\n"
-            "Je suis votre assistant virtuel pour vous accompagner dans votre premier entretien de prévoyance.\n\n"
-            "Je vais simplement vous poser quelques questions pour mieux comprendre votre situation, et vous guider pas à pas.\n\n"
+            "👋 Bonjour et bienvenue chez Kaducea !\n"
+            "Je suis votre assistant virtuel pour vous accompagner dans votre premier entretien de prévoyance.\n"
+            "Je vais simplement vous poser quelques questions pour mieux comprendre votre situation, et vous guider pas à pas.\n"
             "Avant de commencer, auriez-vous des questions ?"
         )
     })
