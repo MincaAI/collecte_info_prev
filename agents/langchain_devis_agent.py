@@ -32,7 +32,7 @@ def run_devis_chain(history, user_input):
     history : liste de tuples (role, content)
     user_input : str
     """
-    system_prompt = load_prompt('DEVIS_AGENT_PROMPT')
+    system_prompt = load_prompt('devis_agent_prompt')
     # Formate l'historique pour le prompt
     history_str = "\n".join([
         f"{role.capitalize()} : {content}" for role, content in history
